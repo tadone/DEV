@@ -21,12 +21,6 @@ SITES=('com.midwestrenovationservices' \
 'www.shmcleaning.com' \
 'www.zerubariel.com')
 
-# MySQL database credentials
-# DB_USER="northstar"
-# DB_PASS="AuDTRCul4g6moLvn"
-# DB_NAME="northstar"
-# DB_FILE="$DB_NAME-$NOW.sql"
-
 # Test for backup directory
 if [[ ! -d  "$BACKUP_DIR" ]]; then
 	mkdir "$BACKUP_DIR" || exit
