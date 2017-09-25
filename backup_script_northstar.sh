@@ -9,12 +9,6 @@ WWW_DIR="/var/www/html"
 LOG_FILE="$HOME/backups/backup.log"
 S3_BUCKET='s3://webvision-backups'
 
-# MySQL database credentials
-#DB_USER="northstar"
-#DB_PASS="AuDTRCul4g6moLvn"
-#DB_NAME="northstar"
-#DB_FILE="$DB_NAME-$NOW.sql"
-
 # Test for backup directory
 if [[ ! -d  "$BACKUP_DIR" ]]; then
 	mkdir "$BACKUP_DIR" || exit
